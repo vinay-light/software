@@ -1,0 +1,210 @@
+# Makefile for Epsilon's EEL source files.
+# This version is designed to work with Borland Make, and
+# other Make programs that don't understand $* in dependency lists.
+
+# Copyright (C) 1985, 1997 Lugaru Software Ltd.  All rights reserved.
+# "Epsilon" is a registered trademark licensed to Lugaru Software, Ltd.
+# "EEL" and "Lugaru" are trademarks of Lugaru Software, Ltd.
+
+# You may need to change the following definitions, depending on your
+# installation options.
+BINDIR=..\bin
+EPSILONCMD=$(BINDIR)\e32
+# Replace "e32" with "e16" or "epsilon" depending on which Epsilon
+# version you're using: "e32" with Epsilon for Windows 95 or NT,
+# "e16" with with Epsilon for Windows 3.1, or "epsilon" with
+# Epsilon for DOS or OS/2.
+EELCMD=$(BINDIR)\eel
+
+# If you don't use the default directory structure,
+# alter the following lines:
+IDIR=..\include
+MAIN_DIR=..
+# The MAIN_DIR should match your EPSPATH configuration variable.
+
+FORSTATE = epsilon.b basic.b bookmark.b bufed.b buffer.b c.b \
+cmdline.b compare.b complete.b control.b debug.b \
+dired.b disp.b filedate.b files.b format.b grep.b help.b \
+indent.b kill.b load.b lowlevel.b menu.b mouse.b proc.b \
+prog.b search.b session.b set.b sort.b store.b tags.b tex.b undo.b \
+video.b window.b zoom.b colcode.b clipboar.b stdcolor.b uniq.b \
+html.b epsnet.b browse.b
+
+OTHEREEL = brief.b color.b diff.b dispchar.b \
+displook.b editvars.b keyprogs.b vidextra.b
+
+COPYCMD=copy
+EELFLAGS=-s -i$(IDIR)
+STD=$(IDIR)\eel.h $(IDIR)\codes.h
+
+all : epsilon.sta
+
+epsilon.sta : $(FORSTATE) $(OTHEREEL)
+	$(EPSILONCMD) -b -rwrite-state -rexit
+	$(COPYCMD) epsilon.sta $(MAIN_DIR)
+
+epsilon.b : epsilon.e $(STD) $(IDIR)\keyext.h $(IDIR)\keydef.h
+	$(EELCMD) $(EELFLAGS) epsilon
+
+basic.b : basic.e $(STD)
+	$(EELCMD) $(EELFLAGS) basic
+
+bookmark.b : bookmark.e $(STD)
+	$(EELCMD) $(EELFLAGS) bookmark
+
+browse.b : browse.e $(STD) $(IDIR)\colcode.h $(IDIR)\browse.h
+	$(EELCMD) $(EELFLAGS) browse
+
+bufed.b : bufed.e $(STD) $(IDIR)\bufed.h $(IDIR)\proc.h $(IDIR)\colcode.h
+	$(EELCMD) $(EELFLAGS) bufed
+
+buffer.b : buffer.e $(STD) $(IDIR)\proc.h
+	$(EELCMD) $(EELFLAGS) buffer
+
+c.b : c.e $(STD) $(IDIR)\c.h $(IDIR)\kill.h $(IDIR)\colcode.h $(IDIR)\proc.h
+	$(EELCMD) $(EELFLAGS) c
+
+clipboar.b : clipboar.e $(STD) $(IDIR)\lowlevel.h $(IDIR)\kill.h
+	$(EELCMD) $(EELFLAGS) clipboar
+
+cmdline.b : cmdline.e $(STD) $(IDIR)\menu.h $(IDIR)\keyext.h
+	$(EELCMD) $(EELFLAGS) cmdline
+
+colcode.b : colcode.e $(STD) $(IDIR)\c.h $(IDIR)\colcode.h
+	$(EELCMD) $(EELFLAGS) colcode
+
+compare.b : compare.e $(STD) $(IDIR)\diff.h
+	$(EELCMD) $(EELFLAGS) compare
+
+complete.b : complete.e $(STD)
+	$(EELCMD) $(EELFLAGS) complete
+
+control.b : control.e $(STD) $(IDIR)\colcode.h $(IDIR)\proc.h
+	$(EELCMD) $(EELFLAGS) control
+
+debug.b : debug.e $(STD)
+	$(EELCMD) $(EELFLAGS) debug
+
+dired.b : dired.e $(STD) $(IDIR)\dired.h $(IDIR)\colcode.h $(IDIR)\epsnet.h
+	$(EELCMD) $(EELFLAGS) dired
+
+disp.b : disp.e $(STD) $(IDIR)\lowlevel.h
+	$(EELCMD) $(EELFLAGS) disp
+
+epsnet.b : epsnet.e $(STD) $(IDIR)\epsnet.h $(IDIR)\proc.h $(IDIR)\colcode.h
+	$(EELCMD) $(EELFLAGS) epsnet
+
+filedate.b : filedate.e $(STD)
+	$(EELCMD) $(EELFLAGS) filedate
+
+files.b : files.e $(STD) $(IDIR)\proc.h $(IDIR)\colcode.h $(IDIR)\epsnet.h $(IDIR)\filter.h
+	$(EELCMD) $(EELFLAGS) files
+
+format.b : format.e $(STD)
+	$(EELCMD) $(EELFLAGS) format
+
+grep.b : grep.e $(STD) $(IDIR)\grep.h $(IDIR)\colcode.h
+	$(EELCMD) $(EELFLAGS) grep
+
+help.b : help.e $(STD) $(IDIR)\menu.h
+	$(EELCMD) $(EELFLAGS) help
+
+html.b : html.e $(STD) $(IDIR)\html.h $(IDIR)\colcode.h $(IDIR)\proc.h $(IDIR)\c.h
+	$(EELCMD) $(EELFLAGS) html
+
+indent.b : indent.e $(STD)
+	$(EELCMD) $(EELFLAGS) indent
+
+kill.b : kill.e $(STD) $(IDIR)\kill.h $(IDIR)\colcode.h
+	$(EELCMD) $(EELFLAGS) kill
+
+load.b : load.e $(STD)
+	$(EELCMD) $(EELFLAGS) load
+
+lowlevel.b : lowlevel.e $(STD) $(IDIR)\lowlevel.h
+	$(EELCMD) $(EELFLAGS) lowlevel
+
+menu.b : menu.e $(STD) $(IDIR)\menu.h $(IDIR)\lowlevel.h
+	$(EELCMD) $(EELFLAGS) menu
+
+mouse.b : mouse.e $(STD) $(IDIR)\menu.h
+	$(EELCMD) $(EELFLAGS) mouse
+
+proc.b : proc.e $(STD) $(IDIR)\proc.h $(IDIR)\colcode.h
+	$(EELCMD) $(EELFLAGS) proc
+
+prog.b : prog.e $(STD) $(IDIR)\colcode.h
+	$(EELCMD) $(EELFLAGS) prog
+
+search.b : search.e $(STD) $(IDIR)\colcode.h
+	$(EELCMD) $(EELFLAGS) search
+
+session.b : session.e $(STD) $(IDIR)\proc.h $(IDIR)\bufed.h
+	$(EELCMD) $(EELFLAGS) session
+
+set.b : set.e $(STD) $(IDIR)\lowlevel.h
+	$(EELCMD) $(EELFLAGS) set
+
+sort.b : sort.e $(STD)
+	$(EELCMD) $(EELFLAGS) sort
+
+stdcolor.b : stdcolor.e $(STD)
+	$(EELCMD) $(EELFLAGS) stdcolor
+
+store.b : store.e $(STD)
+	$(EELCMD) $(EELFLAGS) store
+
+tags.b : tags.e $(STD) $(IDIR)\tags.h
+	$(EELCMD) $(EELFLAGS) tags
+
+tex.b : tex.e $(STD) $(IDIR)\tex.h $(IDIR)\colcode.h $(IDIR)\proc.h $(IDIR)\c.h
+	$(EELCMD) $(EELFLAGS) tex
+
+undo.b : undo.e $(STD)
+	$(EELCMD) $(EELFLAGS) undo
+
+uniq.b : uniq.e $(STD)
+	$(EELCMD) $(EELFLAGS) uniq
+
+video.b : video.e $(STD) $(IDIR)\lowlevel.h $(IDIR)\video.h
+	$(EELCMD) $(EELFLAGS) video
+
+window.b : window.e $(STD)
+	$(EELCMD) $(EELFLAGS) window
+
+zoom.b : zoom.e $(STD)
+	$(EELCMD) $(EELFLAGS) zoom
+
+
+
+brief.b : brief.e $(STD) $(IDIR)\kill.h $(IDIR)\menu.h
+	$(EELCMD) $(EELFLAGS) -e brief
+	$(COPYCMD) brief.b $(MAIN_DIR)
+
+color.b : color.e $(STD)
+	$(EELCMD) $(EELFLAGS) -e color
+	$(COPYCMD) color.b $(MAIN_DIR)
+
+diff.b : diff.e $(STD) $(IDIR)\diff.h $(IDIR)\colcode.h
+	$(EELCMD) $(EELFLAGS) -e diff
+	$(COPYCMD) diff.b $(MAIN_DIR)
+
+dispchar.b : dispchar.e $(STD)
+	$(EELCMD) $(EELFLAGS) -e dispchar
+	$(COPYCMD) dispchar.b $(MAIN_DIR)
+
+displook.b : displook.e $(STD)
+	$(EELCMD) $(EELFLAGS) -e displook
+	$(COPYCMD) displook.b $(MAIN_DIR)
+
+editvars.b : editvars.e $(STD)
+	$(EELCMD) $(EELFLAGS) -e editvars
+	$(COPYCMD) editvars.b $(MAIN_DIR)
+
+keyprogs.b : keyprogs.e $(STD) $(IDIR)\keyext.h $(IDIR)\keydef.h
+	$(EELCMD) $(EELFLAGS) -e keyprogs
+	$(COPYCMD) keyprogs.b $(MAIN_DIR)
+
+vidextra.b : vidextra.e $(STD) $(IDIR)\lowlevel.h $(IDIR)\video.h
+	$(EELCMD) $(EELFLAGS) -e vidextra
+	$(COPYCMD) vidextra.b $(MAIN_DIR)

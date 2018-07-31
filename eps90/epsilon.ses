@@ -1,0 +1,1313 @@
+# Epsilon session
+cde commands.html
+c:\Personal\CDE Commands.html
+7896 7876 1
+0 0 1 70
+4 1 0 1 0 580617 0
+peripherals_usage_statistics_details.js.jsx
+c:\Projects\generic_grid\jsx\reports\peripherals_usage_statistics\peripherals_usage_statistics_details.js.jsx
+0 0 1
+0 0 1 70
+4 1 0 1 0 580614 0
+web_application_details.js.jsx
+c:\Projects\generic_grid\jsx\reports\web_app\web_application_details.js.jsx
+0 0 1
+0 0 1 70
+4 1 0 1 0 575197 0
+peripherals_inventory_details.js.jsx
+c:\Projects\generic_grid\jsx\reports\peripherals_inventory\peripherals_inventory_details.js.jsx
+0 0 1
+0 0 1 70
+4 1 0 1 0 575171 0
+peripherals_base_unit_inventory_details.js.jsx
+c:\Projects\generic_grid\jsx\reports\peripherals_base_unit_inventory\peripherals_base_unit_inventory_details.js.jsx
+0 0 1
+0 0 1 70
+4 1 0 1 0 575170 0
+
+30
+
+
+
+
+
+
+
+
+
+
+peripherals_base_unit_inventory_details.js.jsx
+peripherals_inventory_details.js.jsx
+peripherals_usage_statistics_details.js.jsx
+cde commands.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6 6
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+1 235 60 2 1 580617
+0 0 234 58
+0 4 5 3
+238 3
+cde commands.html
+
+7896 -1 6949
+0 59 0 0 1 0 0
+6209 4101 0
+Global.graphHeaders.paper_cuts<<SES!@!END>>Global.gridHeaders.bu_serial_number<<SES!@!END>>global.graphHeaders.paperCuts<<SES!@!END>>'<<SES!@!END>>make<<SES!@!END>>c:\bn6\30-10-2006\lo103516\2006PA-00040-R00SB-00593-PA.txt<<SES!@!END>>c:\Projects\generic_graph\jsx\**\*.*<<SES!@!END>>
+search: : >gen
+search: : <bold>Social Security and Medicare Taxes</bold>
+f-match dired-execute: d:\jobs\bwl\1.xml
+search: : &as
+replace: <misc-level
+search: : <misc-level
+search: : </misc-level
+replace: </misc-level
+search: : misc
+search: : <m
+string goto-line: 260
+search: : misc-level
+f-match find-file: d:\jobs\bwl\Tools\New Folder\f.xsl
+f-match find-file: d:\jobs\bwl\Tools\New Folder\
+search: : (as sum
+search: : (as summ
+search: Regex: %<heading 
+search: Regex: %<para indent-style="flush-left">%<bold>|%<heading type="electronic-only">
+search: : Are you an exempt individual?&mdash;Decision Tree
+search: : Nonresident Alien or Resident Alien?&mdash;Decision Tree
+search: : Countries with Treaty Benefits for Scholarship or Fellowship Grant (Income Code 15)
+search: : Countries With Treaty Benefits for Income From Teaching (income code 18)
+search: : Countries With Treaty Benefits for Student Wages (income code 19)
+search: : India Treaty
+search: : Article 21(2)
+search: : China Treaty
+search: : Article 19, 20(c)
+search: : Canada Treaty
+search: : Article 15
+search: : Wage Calculation Worksheet
+search: : Filing Status
+search: : Exemption (personal/dependency) Issues
+search: : Standard Deduction
+search: : Social Security and Medicare Taxes
+search: : Tax Credits and Nonresident Aliens
+search: : What to file
+search: : When to File
+search: : Where to File
+search: : Source Documents
+search: : Form 1042-S, Foreign Person's U.S. Source Income Subject to Withholding
+search: : Form W-2, Wage and Tax Statement
+search: : Form 1098-T, Tuition Payments Statement
+search: : Form 1099-INT, Interest Income
+search: : Form 1099-MISC, Miscellaneous Income
+search: : Additional Resources
+search: : Local Information
+search: : Publication No. 938
+search: : 2010, IRS Publication
+search: : Publication No
+search: : <heading type="electronic-only">
+search: Regex: %<para indent-style="flush-left">%<bold>
+search: : <misc-level-
+search: : <misc-level-2 cchwin-doctype="IRS-PUB" node-type="menu">
+search: : &ast
+f-match write-file: d:\jobs\bwl\2.xml
+search: : >pre
+search: : <heading>2010, IRS Publication No. 547(SP), <bold>C&oacute;mo Calcular una P&eacute;rdida</bold></heading>
+search: : <bold>Disminuci&oacute;n del Valor Justo de Mercado
+replace: <table
+search: : <heading 
+search: : <bold>
+search: : <
+search: : C&oacute;mo Calcular una Ganancia
+search: : <t
+search: : "dou
+search: : <hr rule-type="double">
+replace: <hr rule-type="double">2
+search: : 14
+search: Regex: %<misc-level
+f-match grep: d:\jobs\bwl\2.xml
+search: : *
+search: :  & 
+search: :  ,
+search: :  </
+string eval: 242487+56134
+string eval: 56134+242487+86016
+nt-match named-command: set-any-variable
+var-match set-any-variable: replace-num-found
+f-match dired-create-directory: d:\jobs\bwl\26-10
+f-match inp-select-link: d:\jobs\bwl\26-10\
+f-match dired-create-directory: d:\jobs\bwl\
+search: : <LI
+search: : "LI
+search: : "UL
+search: : <ITE
+search: : AGGRE
+search: : "TAB
+search: : "TA
+search: : left">
+search: : "ftb
+search: Regex: count(
+f-match grep: d:\jobs\bwl\Tools\New Folder\**\*.xsl
+search: Regex: count
+replace: </
+search: : <?
+replace: <
+search: : ?>
+replace: />
+search: : 1933
+search: : <blockquote>
+search: : a)
+f-match dired-execute: d:\jobs\bwl\Done\26-10\
+f-match dired-execute: d:\jobs\bwl\v98n04a-bwl.xls
+search: : 58"
+search: : "67
+search: : "para
+search: : 87"
+search: : "bloc
+search: : "te
+search: : gt
+search: : th 
+search: : >th<
+search: Regex:  ([0-9]+)th 
+replace:  #1th 
+f-match find-file: d:\jobs\887
+f-match find-file: d:\jobs\
+f-match find-file: d:\jobs\bwl\Tools\New Folder\for-each\
+f-match find-file: d:\jobs\bwl\Tools\New Folder\factorial no\fact.xml
+f-match find-file: d:\jobs\bwl\Tools\New Folder\factorial no\
+f-match write-file: d:\jobs\bwl\Done\26-10\1.xml
+f-match find-file: d:\jobs\bwl\Done\26-10\
+search: : <fieldset>
+search: : fieldset>
+search: : >pu
+search: : <para
+search: : <hr
+search: : <strin
+f-match dired-execute: d:\jobs\bwl\v98n04g-21-60.bwl.xls
+string eval: 6+6+6+6+6+6+6+6+6+6+6+6+6+6+8+8
+search: : (31
+search: : >ce
+search: : "@
+search: : "p
+search: : >new
+search: : >the 
+search: : blockquote>
+search: : 411
+search: Regex: %</heading><newline>%</law-level
+search: : folio
+f-match dired-execute: z:\Internal\Users\bue
+search: : 4875
+search: : 4,8
+search: : are bot
+search: : &dollar; 
+search: :  )
+search: : > )
+search: : www
+search: : fedra
+search: : 2114
+search: : "ft
+search: : 815
+search: : >el
+search: : ="&ast
+search: : "&ast;
+f-match grep: d:\jobs\bwl\v98n04n.bs7.xml
+f-match inp-select-link: d:\jobs\bwl\29-10\
+f-match find-file: z:
+f-match inp-select-link: d:\jobs\bwl\
+f-match dired-execute: d:\jobs\bwl\Done\29-10\
+f-match dired-execute: d:\jobs\bwl\
+f-match dired-execute: d:\jobs\bwl\v98n04q_bwl.xml
+f-match dired-execute: d:\jobs\bwl\v98n04q_bw7.xls
+f-match dired-execute: d:\jobs\bwl\v98n04q_bwl.xls
+search: : 1003
+search: : 1008
+search: : <i
+f-match load-file: d:\jobs\bwl\Tools\r_and_d\enter.mac
+search: Regex: %<ruling-text
+f-match grep: d:\jobs\bwl\v98n04q_bw7.xml
+search: : <alias normval="
+search: : folio 
+search: : <?folio
+replace: <folio
+search: : "?>
+search: : jack
+search: : 1.
+search: : 3&
+search: : 3&percnt
+search: : <bl
+replace: "/>
+search: : 1045
+search: : 1049
+search: :  :
+f-match grep: d:\jobs\bwl\*.xml
+search: Regex: %<%?xml
+search: Regex: pub="
+search: Regex: law-status
+search: Regex: content-area=
+search: Regex: node-type="document"
+search: Regex: node-type="text"
+search: Regex: node-type="menu"
+search: Regex: num="
+search: Regex: =""
+normval=
+search: Regex: %<para>&ensp;%</para>
+search: Regex: %<([a-z]+)>%.%</([a-z]+)>
+search: Regex: %<bold>%<underline>%<italic>|%<underline>%<bold>%<italic>|%<italic>%<bold>%<underline>|%<underline>%<bold>|%<italic>%<bold>|;&([a-z]+)
+search: Regex:  %</|"%<|"> | "|%<br>%<br>
+search: Regex: :%</para><newline>%</law-level>
+search: Regex: %<heading type="lead-in">(.*)%.%</heading>
+search: Regex: %[|%]|%;[0-9]+%;|%:[0-9]+%;|%;[a-z]+%;| %,|  |%:[a-z]+%;
+search: Regex: <space>%.
+search: Regex: <space>,
+search: Regex: <space>%<|| %>
+search: Regex: <space><space>|'|%<para.+"|%<para.+%<fill|%<para.+%<fill
+search: Regex: %<para>%<bold>([0-9]+)-([0-9]+)%</bold>%<fill chara
+search: Regex: %<bold>([0-9]+)-([0-9]+)%</bold>%</para>
+%</heading><newline>%</law-level
+search: Regex: %<para>([a-z0-9]+)%.|%<para>%(([a-z0-9]+)%)
+search: Regex: &([a-z]+)|&([a-z]+) 
+search: Regex: %<head>%</head>|%<fill|%<quote%>|%</quote%>|quo;
+search: Regex: %<heading align="left">&ensp;%</heading>
+search: Regex: <newline><space>([0-9]+)<space>
+search: Regex: %</para><newline>%<para>&ldquo;Section([0-9]+)
+search: Regex: %<para>%([a-z0-9]+%)|&quo;
+search: Regex: &([a-z]+) |&([a-z]+);
+search: Regex: %<.+<space>%</([^<>]+)%>
+search: Regex: %<([^<>]+)><space>([a-z0-9]+)|%<para><space>([0-9]+)
+search: Regex: %<heading align="left">%<bold>
+search: Regex: %<para><space>%(([a-z]+)%)|%<para><space>([a-z]+)|%<([a-z]+)><space>([a-z]+)|%<([a-z]+)><space>([a-z]+)|([a-z]+)<space>%<([a-z]+)>
+search: Regex: %<para> 
+search: Regex: %<para>([0-9]+)
+search: Regex: ,([a-z0-9]+)|,([^ a-z0-9]+)
+f-match grep: d:\jobs\bwl\v98n04r-1-40.bwf.xml
+search: : <head
+search: : <heading align="left"><bold>
+search: : <folio
+search: : <tabl
+search: : <td
+search: : <td width="
+nt-match named-command: v
+search: : <?td
+nt-match bind-to-key: v
+search: : width="
+search: : <br
+string eval: 108916+104823
+search: : ??
+search: : %
+f-match find-file: c:\sgmparse\dtd\
+f-match find-file: d:\jobs\.
+search: : 337
+search: : 328.
+search: : $
+f-match find-file: d:\jobs\bwl\lo109605\1.t
+search: : <space>+
+replace: +
+nt-match named-command: eval
+string eval: 2146+7530+49764+34013+30449+30610+118660+1970+44121+26844+214492+90240+146732
+f-match find-file: d:\jobs\bwl\Tools\r_and_d\bwl\
+nt-match named-command: zoom-window
+f-match find-file: z:\
+f-match find-file: z:\Internal\Format\LOIS Regular\November\Act\
+f-match dired: d:\jobs\bwl\
+search: : t170
+f-match dired: D:\bwm\9.11
+f-match find-file: d:\bwm\table.htm
+search: : dar
+search: : floren
+search: Regex: %<policy-manual num
+f-match grep: d:\bwm\9.11\spm\*.sgm
+search: : finder
+search: : policy-manual-level
+search: : 148
+search: : 5-5
+search: : <bold>Manual
+f-match dired: d:\jobs\bwl\Tools\eps90\bin\
+f-match dired: d:\jobs\bwl\Tools\eps90\
+search: : <finder>
+search: : <finder-def>
+replace: <td
+search: : </finder-cell>
+replace: </td>
+search: : </finder-def>
+search: : finder-row
+search: : <finder-row>
+replace: <tr>
+search: : </finder-row>
+replace: </tr>
+search: : 5-14
+search: : <para><bold
+search: : <para><bold>Manual Updated
+search: : <graphic>
+replace: <graphic>
+f-match dired: D:\bwm
+search: : </
+search: : <heading align
+search: : (co
+search: : (c
+search: : october
+search: : of each
+search: : 3-5
+search: : <table width
+search: : 3-6
+search: : </tabl
+search: : 3-8
+search: : 3-
+search: : 3-14
+search: : Ma
+search: : 3-1
+search: : <para><bold>Manual
+search: : s co
+search: : <fill character="space" width
+nt-match named-command: push
+search: : <TABLE W
+search: : <FIN
+search: : </FINDER>
+search: : <para><bold>
+search: : <finder-cell
+search: : <fill
+search: : <heading
+search: : v
+f-match dired: d:\jobs\bwl\Tools\1\Copy of Kishan\Kishan\Kishan\Salary_slip\
+f-match dired: d:\jobs\bwl\Tools\New Folder\for-each\
+search: : while pro
+search: : reme
+search: : </TAB
+search: : </TABLE
+f-match dired: d:\bwm\9.11\spm\
+f-match dired-execute: c:\sgmparse\
+f-match dired: c:\sgmparse\
+search: : P.
+search: : LO
+f-match dired: c:\sgmparse\log\
+f-match dired: C:\sgmparse\dtd
+search: : <!element li
+f-match dired: D:\bwm\11.11
+search: : <table 
+search: : 11
+search: : "11
+search: : <bold>11
+search: : <fill character
+search: : </ta
+search: : First
+search: : </TABLE>
+search: : <table-group>
+<html>
+<head><title></title></head>
+<body>
+
+search: : <table width="885">
+search: : <table width="585">
+replace: <table width="100%" border="1">
+search: : <TA
+search: : </FINDER-TA
+nt-match named-command: finder
+search: : **
+search: : table-group
+f-match dired: d:\jobs\bwl\Tools\r_and_d\bwl\tutorials\
+f-match dired: d:\jobs\bwl\Tools\r_and_d\bwl\xslt\naren\
+f-match dired: d:\jobs\bwl\Tools\r_and_d\bwl\xslt\naren\help\
+f-match dired: d:\jobs\bwl\Tools\r_and_d\bwl\xslt\
+f-match dired: d:\jobs\bwl\Tools\1\Copy of Kishan\Kishan\Kishan\my\pdf\
+search: : <f
+search: Regex: %<fill character
+search: : ii
+search: Regex: %<fill character=
+search: : <fi
+search: : <fill character=
+f-match grep: d:\bwm\11.11\*.sgm
+search: Regex: %<policy-manual-level
+search: : poli
+search: : <policy-manual
+search: : toll
+f-match find-file: d:\bwm\ashok.xml
+f-match find-file: d:\bwm\ashok.xsl
+search: : 21
+search: : 23
+search: : 25
+search: : 35
+search: : 34
+search: : 37
+search: : 39
+search: : 42
+search: : unordered-list
+search: : 48
+search: : 47
+search: : 50
+search: : value-of
+replace: copy-of
+search: : othe
+search: : xsl:otherwise
+f-match dired: d:\jobs\bwl\Tools\r_and_d\bwl\tool\
+f-match dired: d:\jobs\bwl\Tools\
+search: : oth
+search: : ppl
+search: : <th
+search: : html
+search: : <html
+search: : @*
+search: : apply-
+search: : xsl:apply-templates
+search: : xsl:template match
+search: : templates s
+search: : match="ta
+search: : body
+search: : apply-templates
+search: : productdata
+search: : table
+search: : if 
+search: : posi
+f-match dired: d:\bwm\11.11\
+f-match dired: Z:\Internal\Data For Processing\November\08\Secd
+f-match dired: z:\Internal\Users\bwl\bwl\tool\Compare It!\
+f-match dired: d:\bwm\11.11\secd\
+f-match dired-create-directory: d:\bwm\TOOLS
+f-match inp-select-link: d:\bwm\tools\
+f-match dired-create-directory: d:\bwm\12.11
+f-match inp-select-link: d:\bwm\12.11\
+search: : <ftnote
+search: : WW
+f-match dired: d:\bwm\12.11\
+f-match dired: Z:\Internal\FQA\NewProjectSGML-XML\SECD-LIVE\2010
+f-match dired-create-directory: d:\bwm\13.11
+f-match dired-create-directory: d:\bwm\13.11\SECD
+search: : JO
+search: : FOL
+f-match dired: d:\jobs\bwl\Done\04-10\
+f-match dired: z:\Internal\
+search: : REA
+search: : 128
+search: : SECTA
+search: : SECRETARY<
+search: : ON MARCH
+search: : <FT
+f-match grep: d:\bwm\13.11\secd\*.XML
+search: Regex: %<ftnote num
+f-match dired: Z:/
+f-match inp-select-link: d:\bwm\13.11\secd\
+f-match dired: z:\Internal\Data For Processing\November\08\Secd\
+search: : BWL
+search: : P CLA
+search: : SGM
+search: : XM
+f-match dired-execute: c:\xmlparse\
+search: : .BWJ
+search: : br
+search: : xmlp
+search: : bwj
+search: : doctypes
+search: : <group doctypes
+search: : doctype
+search: : <grou
+f-match dired: c:/
+search: : xml
+search: : .bat
+search: : .
+search: : .b
+f-match dired: d:/
+search: : .ba
+search: : log
+f-match dired: c:\xmlparse\dtd\
+b-match kill-buffer: group-xml.dtd
+f-match dired: d:\jobs\
+f-match dired: c:\xmlparse\
+f-match dired: c:\xmlparse\log\
+search: : p.ba
+f-match dired: d:\jobs\bwl\Done\07-10\
+f-match dired: z:\Internal\Users\bwl\
+f-match dired: d:/bwm
+f-match dired-execute: d:\bwm\13.11\secd\
+f-match dired: c:/xmlparse
+f-match inp-select-link: d:\bwm\
+search: Regex: %<%?folio n="([0-9]+)"%?>
+replace: <folio n="#1"/>
+search: : <FO
+search: : <folio n
+search: : FO
+search: Regex: %<folio n="([0-9]+)"/>
+replace: <?folio n="#1"/?>
+search: : "/?>
+replace: "?>
+f-match dired: z:\Internal\Format\sgml-xml\Nov\secd\08.11.2010\For QA\
+search: : bwm
+search: : <xsl:apply-templates
+search: : <tam
+search: : templa
+search: : template
+search: : template match
+search: : li>
+search: : po
+f-match dired: d:\bwm\13.11\secd\
+search: : <poli
+search: : <policy-manual-level
+f-match dired: d:\bwm\11.11\spm\
+f-match find-file: d:\bwm\aa.htm
+f-match dired: d:\bwm\
+nt-match named-command: grep
+f-match grep: d:\bwm\*.xsl
+search: Regex:  style=
+f-match find-file: d:\bwm\
+f-match dired-create-directory: d:\jobs\bwl\03-11
+f-match inp-select-link: d:\jobs\bwl\03-11\
+f-match find-file: d:\jobs\bwl\Tools\eps90\bin\
+f-match find-file: d:\jobs\bwl\Tools\eps90\source\
+search: : <phone>
+f-match find-file: d:\jobs\bwl\Tools\
+search: Regex: <space>+
+search: Regex: 
+
+
+search: Regex: <enter>+
+search: Regex: <enter>
+search: Regex: 
++
+search: Regex: (.*)<min>
+nt-match named-command: help
+search: Regex: %<b>([^<>]+)%</b>
+search: Regex: (.+)<min>
+search: Regex: %<b>(.+)<min>%</b>
+search: Regex: %<b>(.*)<min>%</b>
+search: Regex: %<b>(.+)%</b>
+search: Regex: %<b>(.*)<min>%.%</b>
+search: Regex: %<b>(.*)%.%</b>
+search: Regex: H(.+)%</i>
+replace: <b>#1</b>
+search: Regex: H(.+)<min>n
+search: Regex: H(.+)n
+f-match find-file: d:\brg\
+search: : <img
+search: : pig
+f-match find-file: d:\jobs\bwl\Tools\r_and_d\bwl\bvb\26_oct\
+f-match find-file: d:\jobs\bwl
+f-match dired-create-directory: d:\jobs\bwl\18-11
+f-match inp-select-link: d:\jobs\bwl\18-11\
+f-match dired-execute: d:\jobs\bwl\Done\
+f-match find-file: d:\jobs\bwl\Tools\r_and_d\bwl\note\
+f-match dired: d:\jobs\bwl\Tools\r_and_d\bwl\note\
+search: Regex: 2010 AK 4050
+search: : <<text
+search: : 9
+search: :  ca
+search: :  ca 
+search: Regex: 2010 DC 1396
+f-match find-file: d:\jobs\bwl\Done\29-10\
+f-match find-file: c:\Program Files\Sun\StarOffice 8\help\
+f-match find-file: d:\jobs\bwl\rtx100924\
+f-match find-file: d:\jobs\bwl\Done\
+f-match find-file: d:\jobs\bwl\
+search: : sub-table
+search: : is-active
+f-match find-file: d:\jobs\bwl\Tools\r_and_d\xslt\export\common\table\
+f-match find-file: d:\jobs\bwl\Tools\r_and_d\
+f-match dired: d:\bwh\20 november\
+f-match find-file: d:\bwh\20 november\Kentucky\aa.xml
+search: : page 
+search: : page 32
+search: : note
+search: : NOTE: 
+f-match dired: d:\bwh\20 november\california\
+f-match find-file: d:\bwh\20 november\california\aa.txt
+f-match find-file: d:\bwh\20 november\california\aa.xml
+search: : <para>Claims for mammography with multiple views must include one of the appropriate following modifier(s):</para>
+
+search: : <para>Claims for mammography with multiple views must i
+search: : 77055
+f-match dired: C:\BWQ\sgmparse
+search: : 0001188112-10-002176
+search: : 0-26396
+b-match kill-buffer: 111710_p_0001_0001188112-10-002176_bu6.sgm
+search: : 0001193125-10-217416
+search: : 333-168480
+b-match kill-buffer: 111710_p_0005_0001193125-10-217416_bu6.sgm
+search: : 0001193125-10-216850
+search: : 001-31517
+b-match kill-buffer: 111710_p_0010_0001193125-10-216850_bu6.sgm
+search: : 0001193125-10-207058
+b-match kill-buffer: 111710_p_0011_0001193125-10-207058_bu6.sgm
+search: : 0001136261-10-000216
+b-match kill-buffer: 111710_p_0014_0001136261-10-000216_bu6.sgm
+search: : 0001136261-10-000217
+search: : 000-24838
+b-match kill-buffer: 111710_p_0015_0001136261-10-000217_bu6.sgm
+search: : 0000950130-10-001132
+search: : block-quote
+search: : 0001193125-10-155864
+search: : 001-11758
+search: : 0001193125-10-172158
+search: : 0000950123-10-075952
+search: : 0000950123-10-083422
+search: : 001-12647
+b-match kill-buffer: 111710_p_0028_0000950123-10-083422_bvq.sgm
+f-match dired: c:\bwq
+search: : 		   
+replace: call parse 
+search: Regex: %<%!DOCTYPE misc-level-1 SYSTEM "([^<>]+)\sgmparse\dtd\misc-2001%.dtd">
+replace: <!DOCTYPE misc-level-1 SYSTEM "c:\bwq\sgmparse\dtd\misc-2001.dtd">
+f-match file-query-replace: c:\bwq\sgmparse\*.sgm
+search: Regex: "DOCTYPE"
+nt-match named-command: delete-matching-lines
+search: Regex: character "]"
+f-match dired: d:\bwq
+nt-match named-command: load-file
+f-match load-file: c:\bwq\sgmparse\chk.mac
+search: Regex: %<para indent-style="flush-left">Accession Number:
+search: Regex: %<para indent-style="flush-left">Subject Filing:
+search: Regex: root="federal-form-sec" normval="([^<>]+)">Schedule
+search: Regex: pub="fslr"root
+search: Regex: %&bull;
+search: Regex: &amp;
+search: Regex: %<underline>%<italic>
+search: Regex: %<xref pub="fslr" root="federal-
+search: Regex: %<para indent-style="flush-left">File Number:
+search: Regex: %<superscript>
+search: Regex: %<small-cap>
+search: Regex: %	([a-z]+)
+search: Regex: %</([a-z]+)%<
+search: Regex: %</quote>%<quote>
+search: Regex: %<table-group
+search: Regex: %<table width
+search: Regex: %<table width="585"><newline>%<tr><newline>%<td ([a-z]+)="([a-z]+)">
+search: Regex: %<para align="center">
+search: Regex: %<para align="right">
+search: Regex: %<h-6 align="center">
+search: Regex: %<block-quote><newline>%<para indent-style="flush-left">
+search: Regex: %<underline>%<bold>%<italic>|%<underline>%<bold>|%<underline>%<italic>|%<italic>%<bold>|%<bold>%<underline>%<italic>
+search: Regex: %."
+f-match grep: d:\bwq\23-11-2010\Lot 2\*.sgm
+search: Regex: %("|%")
+search: Regex: %("
+search: Regex: %")
+search: Regex:  &amp;([a-z]+)
+search: Regex: %</([^<>]+)%</([^<>]+)>|%</([^<>]+)<newline>
+search: Regex: <newline>([a-z 0-9]+)
+search: Regex: <newline> ([a-z 0-9]+)
+f-match grep: c:\bwq\sgmparse\*.sgm
+search: Regex: ([a-z]+)%(3%)
+search: Regex: %<([a-z]+)> %</([a-z]+)>
+search: Regex: ([a-z]+)([0-9]+)
+search: Regex: ([0-9]+)([a-z]+)
+search: Regex: %.([a-z]+)
+search: Regex: %,([a-z]+)
+search: Regex:  %.
+search: Regex: %. %. %.|%.%.%.
+search: Regex:  & |%$|…|%.%.%.|%. %. %.|^[ %%"]|^[%%"]|@|©|®|£|%*|%#|%$|%[|%]| %+ |%+|—|--
+search: Regex: %$|%. %. %.|%.%.%.|…|@|©|®|£|×|Â|`| &  
+search: Regex: ([a-z0-9]+)%<quote>|%</quote>([a-z0-9]+)
+search: Regex: %,[a-z]+%;
+search: Regex: %<([^<>]+) colspan="([a-z0-9]+)>
+search: Regex: —
+search: Regex: :([a-z]|([0-9])|%<([a-z]))
+search: Regex: :%<underline>
+search: Regex: %)%.%</quote>|%),%</quote>|%)%</quote>
+search: Regex: %<item>%<para>([0-9])
+search: Regex: %<item>%<para>&
+search: Regex: %<item>%<para>-
+search: Regex: %<item>%<para>([0-9]+)%.
+search: Regex: %<item>%<para>([a-z]+)%.
+search: Regex: n-14
+search: Regex: num-style="|token-style="
+search: Regex: &rdquo;
+search: Regex: &rsquo;
+search: Regex: &lsquo;
+search: Regex: ***********************
+search: Regex: ********************
+search: Regex: cover
+search: Regex:  %'([^<>]+)%'
+search: Regex: %<%<|>>|<space>>
+search: Regex: ([0-9])&mdash;
+search: Regex: ([0-9]) &mdash; ([0-9])
+search: Regex: &mdash;
+search: Regex: &ndash;
+search: Regex: ********************************************
+search: Regex: Fabruary
+search: Regex: Nobmber
+search: Regex: ">([^<> ]+) ([^<> ]+), ([^<> ]+)%<
+search: Regex: %<br>
+search: Regex: %<para>Re:
+search: Regex: %<ordered-list
+search: Regex: %<unordered-list
+search: Regex:  %</
+search: Regex: "> 
+search: Regex:  "
+search: Regex: " 
+search: Regex: <newline>([a-z]+)
+search: Regex: %<([a-z]+)>%</([a-z]+)>
+search: Regex: %<[a-z]+> 
+search: Regex:  & 
+search: Regex: %$
+search: Regex: %.%.%.
+search: Regex: @
+search: Regex: ©
+search: Regex: ®
+search: Regex: £
+search: Regex: %*
+search: Regex: %[|%]
+search: Regex: %;[0-9]+%;
+search: Regex: %:[0-9]+%;
+search: Regex: %;[a-z]+%;
+search: Regex:  %,
+search: Regex: %:[a-z]+%;
+search: Regex: <newline><newline>|<newline><space>|<space><newline>
+search: Regex: "<space>>|<space>">
+search: Regex:  %=|%= 
+search: Regex:  + 
+search: Regex:  - 
+search: Regex: --
+search: Regex: %#
+search: Regex: %%
+search: Regex: %&([a-z]+) ([a-z0-9]+)
+search: Regex: Exact search
+search: Regex: ([a-z]+)([A-Z]+)
+search: Regex: %( |%[ |%{ | %)| %]| %}
+search: Regex: <#125-#256>
+search: Regex: %<([^<>]+)%> 
+search: Regex: ([^<>width="0-9]+)%%
+search: Regex: <italic>%</italic>
+search: Regex: <bold>%</bold>
+search: Regex: _______
+search: Regex: %<misc-level-1
+search: Regex: %<alias
+search: Regex: %<heading>
+search: Regex: %<para indent-style="flush-left">Public Availability Date:
+search: Regex: %<para indent-style="flush-left">Filed Date:
+search: Regex: %<para indent-style="flush-left">Submission Type:
+search: Regex: colspan="
+search: Regex: %<xref pub="fslr" root="
+search: Regex: %<bold>%<underline>%<italic>|%<underline>%<bold>%<italic>|%<italic>%<bold>%<underline>|%<underline>%<bold>|%<italic>%<bold>
+search: Regex: %<([a-z]+)>%.%</([a-z]+)>|%<([a-z]+)>%,%</([a-z]+)>
+search: Regex:  %</|"<|"> | "|%<br>%<br>
+search: Regex:  x |([0-9]+)/([0-9]+)
+search: Regex:  '(.*)'|<newline>([a-z 0-9]+)|<newline> ([a-z 0-9]+)
+search: Regex: %<([a-z]+)> %</([a-z]+)>|%<([a-z]+)>%</([a-z]+)>|%<[a-z]+> 
+search: Regex: %("|"%)|%." |%$|%. %. %.|%.%.%.|…|@|©|®|£|×|Â|`| & |§
+search: Regex: %[|%]|%;[0-9]+%;|%:[0-9]+%;|%;[a-z]+%;| %,|%:[a-z]+%;
+search: Regex: <#01-#09>|<#11-#12>|<#14-#29>|<#127-#255>
+search: Regex: <newline><newline>|<newline><space>|<space><newline>"<space>>|<space>">|>([a-z]+)>|>/([a-z]+)>
+search: Regex:  %=|%= | = |%<%<|>>|<space>>|([0-9]+)>%<|%</([a-z]+)%<|%</([a-z]+)<newline>
+search: Regex: %+|—|--|%#|%*|%%
+search: Regex: %&([a-z]+) ([a-z 0-9]+)|([a-z0-9]+)%<quote>|%</quote>([a-z0-9]+)
+search: Regex: %<block-quote><newline>%<para indent-style="flush-left">|%<para indent-style="flush-left">(.*)%</para><newline>%</block-quote>
+search: Regex: ([0-9]+)&mdash;([0-9]+)|&hyphen;|&caret;|%<item>%<para indent-style="flush-left">
+search: Regex: %<td width="([0-9]+)">%</td>|%<td width="([0-9]+)%%">%</td>|%<td width="([0-9]+)%%%%">%<p>%</p>%</td>
+search: Regex: %<head>%</head>
+search: Regex: %<td width="([0-9]+)">%<p>%</p>%</td>
+search: Regex: %<table width="([0-9]+)"><newline>%<tr><newline>%<([a-z]+) ([a-z]+)="([a-z]+)"
+search: Regex: %</xref>, %<xref|%</xref>,%<xref|%</xref>%<xref
+search: Regex: type="other"><newline>%<topic (.*)>%</topic><newline>%<heading>(.*)%</heading><newline>%<para indent-style="flush-left">(.*)%</para><newline>%<para indent-style="flush-left">(.*)%</para><newline>%<para indent-style="flush-left">(.*)%</para><newline>%<para
+search: Regex: (.*)%</para>Attn:(.*)%</para>|(.*)%<br>Attn: (.*)%</para>|%<para>cc:|(.*)%<br>Mail Stop (.*)%</para>
+search: Regex: %<h-6 align="left">%</h-6>|%<para indent-style="flush-left">%<br>
+search: Regex: %<ftnote num="%(([a-z])%|%(([0-9])%)">
+search: Regex: %<th valign="([a-z]+)" colspan="([0-9]+)">%<p>%</p>%</th>|%<td valign="([a-z]+)" colspan="([0-9]+)">%<p>%</p>%</td>
+search: Regex: list token="none"><newline>%<item>%<para>([a-z]+)|%<para indent-style="flush-left">%<para indent-style="flush-left"|>%</para>%</para>|%<para indent-style="flush-left">%</para>
+search: Regex: token-style= 
+search: Regex: %<unordered-list token="bull"><newline>%<item>%<para>&
+search: Regex: ********
+search: Regex:  Date: 
+search: Regex: January
+search: Regex: February
+search: Regex: March
+search: Regex: April
+search: Regex: May
+search: Regex: June
+search: Regex: July
+search: Regex: August
+search: Regex: September
+search: Regex: October
+search: Regex: November
+search: Regex: December
+search: Regex: %<topic
+search: Regex: form-n03
+search: Regex: form-1a
+search: Regex: form-f01
+search: Regex: form-f03
+search: Regex: form-f04
+search: Regex: form-f06
+search: Regex: form-f08a
+search: Regex: form-f10
+search: Regex: form-f10sb
+search: Regex: form-s01
+search: Regex: form-s02
+search: Regex: form-s03
+search: Regex: form-s04
+search: Regex: form-s08
+search: Regex: form-s11
+search: Regex: form-sb-01
+search: Regex: form-sb-02
+search: Regex: form-f425
+search: Regex: schedule-b
+search: Regex: schedule-14a
+search: Regex: schedule-14c
+search: Regex: form-06k
+search: Regex: form-08k
+search: Regex: form-10d
+search: Regex: form-10k
+search: Regex: form-10ksb
+search: Regex: form-10q
+search: Regex: form-10qsb
+search: Regex: form-12b-25
+search: Regex: form-20f
+search: Regex: form-40f
+search: Regex: schedule-13d
+search: Regex: schedule-13e-03
+search: Regex: schedule-13e-04f
+search: Regex: schedule-13g
+search: Regex: schedule-14d-01f
+search: Regex: schedule-14d-09
+search: Regex: schedule-14d-09f
+search: Regex: schedule-14d-09-c
+search: Regex: schedule-14F-01
+search: Regex: schedule-to
+search: Regex: form-n01a
+search: Regex: form-n02
+search: Regex: form-n04
+search: Regex: form-n06
+search: Regex: form-n08f
+search: Regex: form-ncsr
+search: Regex: form-nq
+search: Regex: form-nsar
+search: Regex: form-t3
+search: Regex: schedule-14d
+search: Regex: miscellaneous-filings
+search: Regex: *********
+search: Regex: <topic name="miscellaneous-filings"></topic>
+search: Regex: Subject Filing: "form N-14"
+search: Regex: **********IRPO*******
+search: Regex: type="document"><newline>%<heading>|node-type="document"><newline>%<
+search: Regex: %<heading type="electronic-only">(.*)%</bold>%</heading><newline>%<para
+search: Regex: %<heading type="electronic-only">
+search: Regex: &ldquo;
+search: Regex: >Form 1-A%<
+search: Regex: >Form 8-A%<
+search: Regex: >Form 10%<
+search: Regex: >Form 10-SB%<
+search: Regex: >Form SB-1%<
+search: Regex: >Form SB-2%<
+search: Regex: >Form 425%<
+search: Regex: >Form 12b-25%<
+search: Regex: >Schedule 13Ed-3%<
+search: Regex: >Schedule 13E-4F%<
+search: Regex: >Schedule 14D-1F%<
+search: Regex: >Schedule 14D-9%<
+search: Regex: >Schedule 14D-9F%<
+search: Regex: >Schedule 14D9-C%<
+search: Regex: >Schedule 14F-1%<
+search: Regex: >Form N-1A%<
+search: Regex: >Form N-8F%<
+search: Regex: >Form N-CSR%<
+search: Regex: >Form N-Q%<
+search: Regex: >Form N-SAR%<
+search: Regex: >Form T-3%<
+f-match grep: d:\jobs\bwl\Tools\eps90\bin\*.sgm
+f-match dired: c:\
+f-match dired: d:\
+b-match kill-buffer: 111710_p_0022_0001193125-10-210733_bw9.sgm
+search: : <tab
+b-match kill-buffer: 111710_p_0028_0000950123-10-083422_bvq.sgm<1>
+search: : Grants 
+b-match kill-buffer: 111710_p_0027_0000950123-10-075952_bvt.sgm
+search: : <table
+b-match kill-buffer: 111710_p_0021_0001193125-10-172158_bu6.sgm
+b-match kill-buffer: 111710_p_0020_0001193125-10-155864_bu6.sgm
+nt-match named-command: kill-buffer
+b-match kill-buffer: 111710_p_0019_0000950130-10-001132_bu6.sgm
+f-match find-file: c:\bwq\sgmparse\
+nt-match named-command: kill-all-buffers
+f-match find-file: f:\Tools\eps90\bin\
+search: : word
+f-match find-file: f:\Tools\New Folder\class1_variables\
+f-match find-file: f:\Tools\New Folder\class1_Sorting\
+f-match find-file: f:\Tools\New Folder\class1_xsl_text\
+search: : </s
+search: : subj-group
+search: : annotation
+search: : <body
+search: : this-article
+search: : list
+search: : named-anchor
+search: Regex: poverty indices based on area of residence from 
+search: : array
+search: : "rid
+search: : award-id
+search: : <!--
+search: : alt-text
+f-match find-file: d:\Tools\eps90\bin\
+search: : link
+search: : metadata-labeled-entry
+f-match find-file: d:\jobs\tools\
+f-match find-file: d:\Tools\1\Copy of Kishan\Kishan\Kishan\my\sample\tool\xsd\
+f-match find-file: d:\Tools\1\
+f-match find-file: d:\Tools\
+f-match find-file: D:\jobs\tools\doc\using-xsl
+f-match grep: d:\jobs\tools\doc\**\*.xsl
+search: Regex: www%.w3%.org/2005/xpath-functions
+f-match grep: d:\jobs\tools\doc\**\*.*
+f-match grep: d:\Tools\New Folder\*.xsl
+search: Regex: dateTime
+f-match grep: d:\Tools\New Folder\**\*.xsl
+f-match list-files: d:\jobs\tools\doc\**\*.*
+search: Regex: for-each%.xml
+f-match find-file: d:\jobs\tools\doc\xsl-elements\for-each.xml
+search: : for-e
+f-match find-file: d:\Tools\New Folder\q_ANS\
+f-match find-file: d:\jobs\tools\doc\
+f-match find-file: d:\jobs\tools\doc\xsl-elements\
+nt-match named-command: mark-line-region
+nt-match named-command: mark-normal-region
+nt-match named-command: bind-to-key
+nt-match bind-to-key: mark-rectangle
+f-match dired-create-directory: d:\Tools\New Folder\xsl_key_Used\IIIrd_Ex
+f-match find-file: d:\Tools\New Folder\xsl_key_Used\IIIrd_Ex\key
+f-match write-file: d:\Tools\New Folder\xsl_key_Used\IIIrd_Ex\key.xls
+f-match write-file: d:\Tools\New Folder\xsl_key_Used\IIIrd_Ex\key.xsl
+f-match find-file: d:\Tools\New Folder\xsl_key_Used\IIIrd_Ex\key.mml
+search: : pc
+f-match write-state: \Tools\eps90\epsilon.sta
+f-match find-file: d:\Tools\imp1\
+f-match find-file: d:\Tools\New Folder\xsl_key_Used\IIIrd_Ex\
+f-match find-file: d:\Tools\New Folder\factorial no\
+f-match find-file: \\server\PMAM\Argo-RQBI\2009\FormConversion\C o m p l e t e T r a n s p o r t
+search: Regex: xmlns:fn="http://www.w3.org/2005/xpath-functions"
+f-match grep: \\server\pmam\Argo-RQBI\2009\FormConversion\C o m p l e t e T r a n s p o r t\*
+f-match find-file: \\server\pmam\Argo-RQBI\2009\FormConversion\C o m p l e t e T r a n s p o r t\
+search: Regex: xmlns:fn="http://www%.w3%.org/2005/xpath-functions"
+f-match grep: \\server\pmam\Argo-RQBI\2009\FormConversion\C o m p l e t e T r a n s p o r t\Build\**\*.xsl
+search: Regex: coverage-table
+search: Regex: coverage-name
+nt-match named-command: set-font
+f-match write-state: \eps90\epsilon.sta
+f-match find-file: d:\temp1.txt
+f-match find-file: \\server\pmam\Argo-RQBI\2009\FormConversion\C o m p l e t e T r a n s p o r t\Build\build 18\
+search: Regex: Premium_of_NY_Supp_Spouse_Liab
+search: Regex: vinay
+f-match grep: c:\Users\BinayP\Desktop\vina\xml\*.xml
+search: Regex: You are hereby notified
+search: Regex: before signing.
+f-match find-file: c:\Users\BinayP\Desktop\vina\
+search: : noargs
+f-match find-file: c:\fop\fop-0.95\
+nt-match named-command: set-color
+search: : <xsl:temp
+search: : warning
+search: : stam
+search: : ; 
+replace: |
+f-match find-file: \\server\pmam\Argo-RQBI\2011\Latest xslt source files\lATEST XSLT_02AUG2011
+search: Regex: PJAMIC-0408|DCJ2000-0408|CT3059-0706|IL0952-0308|IL0146-0810|IL0146-0810|IL0146-0903|U094-0702|U094-0702|CM0001-0904|IL0935-0702|IL0953-0108|IL0983-0108|TMTC0001-0808|TMTC100-0808|TMTC101-0808|TMTC102-0808|TMTC202-0808|TMTCDEC-0808|TRIA2002Notice-0108|UCM
+search: Regex: PJAMIC-0408|DCJ2000-0408|CT3059-0706|IL0952-0308|IL0146-0810|IL0146-0810|IL0146-0903|U094-0702|U094-0702|CM0001-0904|IL0935-0702|IL0953-0108|IL0983-0108|TMTC0001-0808|TMTC100-0808|TMTC101-0808|TMTC102-0808|TMTC202-0808|TMTCDEC-0808|TRIA2002Notice-0108|UCM
+f-match grep: \\server\pmam\Argo-RQBI\2011\Latest xslt source files\lATEST XSLT_02AUG2011\
+search: Regex: \\server\pmam\Argo-RQBI\2011\Latest xslt source files\lATEST XSLT_02AUG2011
+search: Regex: PJAMIC-0408|DCJ2000-0408|CT3059-0706|IL0952-0308|IL0146-0810|IL0146-0810|IL0146-0903|U094-0702|U094-0702|CM0001-0904|IL0935-0702|IL0953-0108|IL0983-0108|TMTC0001-0808|TMTC100-0808|TMTC101-0808|TMTC102-0808|TMTC202-0808|TMTCDEC-0808|TRIA2002Notice-0108|UCM
+f-match grep: \\server\pmam\Argo-RQBI\2011\Latest xslt source files\lATEST XSLT_02AUG2011\*.*
+search: : PJAMIC-0408
+b-match kill-buffer: tmtc102-0808.xsl
+nt-match named-command: list-all
+f-match list-files: \\server\pmam\Argo-RQBI\2011\Latest xslt source files\lATEST XSLT_02AUG2011\*.*
+f-match list-files: \\server\pmam\Argo-RQBI\2011\Latest xslt source files\lATEST XSLT_02AUG2011\AG1002-0804.xsl
+nt-match named-command: list-files
+f-match list-files: \\server\pmam\Argo-RQBI\2011\Latest xslt source files\lATEST XSLT_02AUG2011\PJAMIC-0408|DCJ2000-0408|CT3059-0706|IL0952-0308|IL0146-0810|IL0146-0810|IL0146-0903|U094-0702|U094-0702|CM0001-0904|IL0935-0702|IL0953-0108|IL0983-0108|TMTC0001-0808|TMTC100-0808
+search: Regex: PJAMIC-0408
+search: Regex: DCJ2000-0408
+search: : STATE
+search: Regex: 'STATE'
+search: Regex: 'state
+search: :  
+   
+search: : 
+   
+replace: ','
+search: : -([a-z]+)'
+search: : -([0-9]+)'
+nt-match named-command: regex-replace
+search: Regex: -([0-9]+)'
+search: Regex: ([a-z]+)
+replace: '
+b-match kill-buffer: New File
+f-match find-file: d:\eps90\bin\
+b-match kill-buffer: tmp.txt
+f-match find-file: d:\text1
+search: :         
+search: :     
+search: : ( 
+replace: (
+search: :    )
+replace: )
+search: : ] [
+replace: ][
+search: :   
+f-match find-file: d:\tmp.txt
+replace:  
+
+search: : , 
+nt-match named-command: set-mark
+nt-match named-command: mark-rectangle
+search: : 
+
+replace: ,
+nt-match named-command: d:\
+search: : -
+
+f-match find-file: d:\
+f-match find-file: f:\hell
+f-match find-file: f:\company.txt
+
+f-match find-file: f:\
+f-match find-file: e:\1.txt
+f-match find-file: e:\2.txt
+nt-match named-command: sort-region
+search: : 26/1
+search: Regex: 26/1
+f-match find-file: e:\3.txt
+f-match dired-create-directory: e:\verma
+f-match find-file: e:\ver.txt
+f-match dired: e:\
+f-match dired: f:\
+f-match dired: e:\Abdul_software\
+f-match dired: e:\Abdul_software\Skhan\prj\ASPForums.Net\.svn\
+f-match dired: e:\Abdul_software\Skhan\prj\ASPForums.Net\
+f-match dired: c:
+f-match dired: c:\eps90\bin\
+f-match dired: c:\eps90\source\
+f-match dired: e:
+f-match find-file: c:\eps90\source\
+f-match find-file: c:\jboss\jboss-as-7.1.1\standalone\configuration\
+f-match find-file: sdf
+f-match find-file: c:\
+f-match find-file: c:\Personal\git.txt
+search: : share
+nt-match named-command: change-font-size
+f-match dired-execute: c:\Personal\CDE Commands.txt
+search: : 
+
+
+replace: 
+
+replace: 
+"companies.details.section"
+replace: 
+"companies.details.section" : 
+search: : incidents
+replace: 
+,
+search: : 
+
+replace: ,
+
+search: Regex: support_admin_companies_list
+f-match grep: c:\Projects\**\*.*
+b-match select-buffer: c:\Projects
+search: Regex: support_admin.companies.list.heading.last_managed_on
+f-match grep: c:\Projects\generic_grid\
+search: Regex: support_admin%.companies%.list%.heading%.last_managed_on
+search: : support_admin%.companies%.list%.heading%.last_managed_on
+f-match grep: c:\Projects\generic_grid\**\*.*
+nt-match named-command: exit
+search: : +
+search: :      
+search: : cde=
+search: : lhser
+f-match dired-execute: c:\Projects\generic_grid\jsx\reports\peripherals_inventory\peripherals_inventory_details.js.jsx
+f-match dired-execute: c:\Projects\generic_grid\jsx\reports\peripherals_base_unit_inventory\peripherals_base_unit_inventory_details.js.jsx
+f-match dired-execute: c:\Projects\generic_grid\jsx\reports\peripherals_usage_statistics\peripherals_usage_statistics_details.js.jsx
+f-match dired-execute: c:\Projects\generic_grid\jsx\reports\peripheral_changes\peripheral_changes_details.js.jsx
+f-match dired-execute: c:\Projects\generic_graph\jsx\reports\peripherals_base_unit_inventory\peripherals_base_unit_inventory_summary.js.jsx
+f-match find-file: c:\Projects\generic_graph\jsx\reports\peripherals_base_unit_inventory\
+f-match dired-execute: c:\Projects\generic_graph\jsx\reports\peripheral_changes\peripheral_changes_summary.js.jsx
+f-match find-file: c:\Projects\generic_graph\jsx\reports\peripherals_inventory\
+search: : hardwareInventoryDevicesByMonth
+search: : HardwareInventory
+f-match dired-execute: c:\Projects\generic_graph\jsx\reports\peripherals_inventory\peripherals_inventory_summary.js.jsx
+f-match find-file: c:\Projects\generic_graph\jsx\reports\peripheral_changes\
+f-match find-file: c:\Projects\generic_graph\jsx\reports\hardware_inventory\
+f-match find-file: c:\crediential.txt
+search: :  
+replace: _
+f-match find-file: c:\Personal\q
+search: :       
+f-match find-file: c:\eps90\changes\
+f-match find-file: c:\eps90\
+nt-match named-command: html-mode
+f-match find-file: c:\eps90\bin\
+f-match find-file: c:\xmlp
+search: : app
+search: : cde-hos
+search: : vijay
+search: : aut
+search: : ',
+replace:  2018',
+search: : 	
+replace: , 
+search: : "
+search: : : "
+search: : : 
+replace: : "
+search: : ,
+replace: ",
+search: : ,
+	data
+replace: ",
+	data
+search: : customlocation
+replace: customLocation
+search: : +  
+search: : checkli
+search: : CDE_H
+search: : cde
+f-match find-file: c:\Projects\
+f-match grep: c:\Projects\generic_grid\jsx\**\*.*
+search: Regex: Global.gridHeaders.alias_name
+search: : Global.gridHeaders.alias_name
+replace: global.gridHeaders.aliasName
+search: : Global.gridHeaders.bu_name
+replace: global.gridHeaders.buName
+search: : Global.gridHeaders.bu_serial_number
+replace: global.gridHeaders.buSerialNumber
+search: Regex: Global.gridHeaders.bu_serial_number
+search: : Global.gridHeaders.check_health_status
+replace: global.gridHeaders.checkHealthStatus
+search: : Global.gridHeaders.check_health_status_ext
+replace: global.gridHeaders.checkHealthStatusExt
+search: : Global.gridHeaders.manufacturingDate
+replace: global.gridHeaders.manufactureDate
+search: : Global.gridHeaders.paper_ct
+replace: global.gridHeaders.paperCt
+nt-match named-command: change-line-wrapping
+search: : Global.gridHeaders.peripheral_category
+replace: Global.gridHeaders.peripheralCategory
+search: : Global.gridHeaders.peripheral_count
+replace: global.gridHeaders.peripheralCount
+search: : Global.gridHeaders.peripheral_serial_number
+replace: global.gridHeaders.peripheralSerialNumber
+search: : Global.gridHeaders.receipt_line_printer_ct
+replace: global.gridHeaders.receiptLinePrinterCt
+search: : Global.gridHeaders.threshold_setting_paper_cut_count
+replace: global.gridHeaders.paperCutCountThreshold
+search: : Global.gridHeaders.threshold_setting_power_hour_count
+replace: global.gridHeaders.powerHourCountThreshold
+search: : Global.gridHeaders.threshold_setting_printed_lines_count
+replace: global.gridHeaders.printedLinesCountThreshold
+search: : Global.graphHeaders.usage
+replace: global.graphHeaders.usage
+f-match file-query-replace: c:\Projects\generic_graph\**\*.*
+f-match file-query-replace: c:\Projects\generic_graph\jsx\**\*.*
+f-match find-file: c:\Personal\
+f-match find-file: c:\Personal\test.txt
+search: : Global.graphHeaders.all_peripherals_health_check
+replace: global.graphHeaders.allPeripheralsHealthCheck
+search: : Global.graphHeaders.all_peripherals_total_powered_hours
+replace: global.graphHeaders.allPeripheralsTotalPoweredHours
+search: : Global.graphHeaders.total_powered_hours
+search: : Global.graphHeaders.powered_hours
+replace: global.graphHeaders.poweredHours
+search: : Global.graphHeaders.printed_lines
+replace: global.graphHeaders.printedLines
+search: : Global.graphHeaders.good_reads
+replace: global.graphHeaders.goodReads
+search: : Global.graphHeaders.msr_total_pow_hrs
+replace: global.graphHeaders.msrTotalPowHrs
+search: : Global.graphHeaders.msr_total_good_reads
+replace: global.graphHeaders.msrTotalGoodReads
+search: : Global.graphHeaders.scanner_total_pow_hrs
+replace: global.graphHeaders.scannerTotalPowHrs
+search: : Global.graphHeaders.scanner_total_good_reads
+replace: global.graphHeaders.scannerTotalGoodReads
+search: : Global.graphHeaders.printers_total_pow_hrs
+replace: global.graphHeaders.printersTotalPowHrs
+search: : Global.graphHeaders.printers_total_paper_cuts
+replace: global.graphHeaders.printersTotalPaperCuts
+search: : Global.graphHeaders.printers_total_printed_lines
+replace: global.graphHeaders.printersTotalPrintedLines
+search: : Global.graphHeaders.total_printed_lines
+replace: global.graphHeaders.totalPrintedLines
+search: : Global.graphHeaders.total_paper_cuts
+replace: global.graphHeaders.totalPoweredHours
+search: : Global.graphHeaders.total_good_reads
+replace: global.graphHeaders.totalGoodReads
+search: : Global.yAxisTitle.total_counts
+replace: global.yAxisTitle.totalCounts
+search: : Global.graphHeaders.paper_cuts
+replace: global.graphHeaders.paperCuts
+f-match find-file: c:\Projects\generic_graph\jsx\
+<<SES!@!END>>
+CWD: c:\eps90\bin

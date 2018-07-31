@@ -1,0 +1,125 @@
+***  Installation Started 10/08/05 8:09  ***
+Title: Epsilon 9.0 Installation
+Source: C:\PROGRA~1\EPSILON\DISK1\SETUP.EXE
+* COMPONENTS=ADE
+* PATHOPTION=A
+* MAINDIR=C:\Program Files\Eps90
+* BIN32=C:\Program Files\Eps90\bin
+* BIN16=C:\Program Files\Eps90\binw16
+* BINDIR=C:\Program Files\Eps90\bin
+* OWNER=polyplex Infotech
+* COMPANY=polyplex Infotech
+* SERIAL=12345
+* EBIN32=
+* EBIN16=
+* EBINDIR=
+* EVALVERSION=
+* KEEPOLD=B, FINDOLD=
+Made Dir: C:\Program Files\Eps90
+File Copy: C:\Program Files\Eps90\readme.txt
+Made Dir: C:\Program Files\Eps90\bin
+File Copy: C:\Program Files\Eps90\bin\e32.exe
+File Copy: C:\Program Files\Eps90\bin\inherit.exe
+File Copy: C:\Program Files\Eps90\bin\inherit.pif
+File Copy: C:\Program Files\Eps90\bin\epshlp.dll
+File Copy: C:\Program Files\Eps90\bin\epsnet.dll
+File Copy: C:\Program Files\Eps90\bin\concur16.exe
+File Copy: C:\Program Files\Eps90\bin\concur16.pif
+File Copy: C:\Program Files\Eps90\bin\concur16.ico
+File Copy: C:\Program Files\Eps90\bin\sheller.exe
+File Copy: C:\Program Files\Eps90\bin\sheller.pif
+File Copy: C:\Program Files\Eps90\bin\edoc.hlp
+File Copy: C:\Program Files\Eps90\bin\eel.exe
+File Copy: C:\Program Files\Eps90\bin\eel_lib.dll
+File Copy: C:\Program Files\Eps90\BRIEF.B
+File Copy: C:\Program Files\Eps90\COLOR.B
+File Copy: C:\Program Files\Eps90\DIFF.B
+File Copy: C:\Program Files\Eps90\QUICKUP.B
+File Copy: C:\Program Files\Eps90\DISPCHAR.B
+File Copy: C:\Program Files\Eps90\DISPLOOK.B
+File Copy: C:\Program Files\Eps90\EDITVARS.B
+File Copy: C:\Program Files\Eps90\KEYPROGS.B
+File Copy: C:\Program Files\Eps90\VIDEXTRA.B
+File Copy: C:\Program Files\Eps90\epsilon.kbd
+File Copy: C:\Program Files\Eps90\brief.kbd
+File Copy: C:\Program Files\Eps90\gui.mnu
+File Copy: C:\Program Files\Eps90\epsilon.mnu
+File Copy: C:\Program Files\Eps90\brief.mnu
+File Copy: C:\Program Files\Eps90\eteach
+File Copy: C:\Program Files\Eps90\colclass.txt
+File Copy: C:\Program Files\Eps90\primlist.doc
+File Copy: C:\Program Files\Eps90\Lugaru.url
+File Copy: C:\Program Files\Eps90\latex.env
+File Copy: C:\Program Files\Eps90\manbugs.txt
+File Copy: C:\Program Files\Eps90\original.sta
+File Copy: C:\Program Files\Eps90\ebackup.sta
+File Copy: C:\Program Files\Eps90\epsilon.sta
+Made Dir: C:\Program Files\Eps90\include
+File Copy: C:\Program Files\Eps90\include\EEL.H
+File Copy: C:\Program Files\Eps90\include\CODES.H
+File Copy: C:\Program Files\Eps90\include\C.H
+File Copy: C:\Program Files\Eps90\include\COLCODE.H
+File Copy: C:\Program Files\Eps90\include\KEYDEF.H
+File Copy: C:\Program Files\Eps90\include\KEYEXT.H
+File Copy: C:\Program Files\Eps90\include\KILL.H
+File Copy: C:\Program Files\Eps90\include\LOWLEVEL.H
+File Copy: C:\Program Files\Eps90\include\MENU.H
+File Copy: C:\Program Files\Eps90\include\PROC.H
+File Copy: C:\Program Files\Eps90\include\TAGS.H
+File Copy: C:\Program Files\Eps90\include\VIDEO.H
+File Copy: C:\Program Files\Eps90\include\BUFED.H
+File Copy: C:\Program Files\Eps90\include\FILTER.H
+File Copy: C:\Program Files\Eps90\include\GREP.H
+File Copy: C:\Program Files\Eps90\include\DIFF.H
+File Copy: C:\Program Files\Eps90\include\DIRED.H
+File Copy: C:\Program Files\Eps90\include\EPSNET.H
+File Copy: C:\Program Files\Eps90\include\HTML.H
+File Copy: C:\Program Files\Eps90\include\TEX.H
+File Copy: C:\Program Files\Eps90\include\BROWSE.H
+File Copy: C:\Program Files\Eps90\epswhlp.hlp
+File Copy: C:\Program Files\Eps90\epswhlp.cnt
+* Copy source archive from C:\PROGRA~1\EPSILON\DISK2\srcdir.exe to C:\WINDOWS\TEMP.
+Made Dir: C:\Program Files\Eps90\source
+File Tree: C:\Program Files\Eps90\source
+Made Dir: C:\Program Files\Eps90\changes
+File Copy: C:\Program Files\Eps90\changes\FROM65
+File Copy: C:\Program Files\Eps90\changes\FROM70
+File Copy: C:\Program Files\Eps90\changes\FROM80
+File Copy: C:\Program Files\Eps90\changes\LIST40.STD
+File Copy: C:\Program Files\Eps90\changes\LIST50.STD
+File Copy: C:\Program Files\Eps90\changes\LIST501.STD
+File Copy: C:\Program Files\Eps90\changes\LIST60.STD
+File Copy: C:\Program Files\Eps90\changes\LIST65.STD
+File Copy: C:\Program Files\Eps90\changes\LIST70.STD
+File Copy: C:\Program Files\Eps90\changes\LIST80.STD
+File Copy: C:\Program Files\Eps90\changes\LIST90B7.STD
+File Copy: C:\Program Files\Eps90\changes\LIST90B8.STD
+File Copy: C:\Program Files\Eps90\changes\LIST9B10.STD
+File Copy: C:\Program Files\Eps90\changes\LIST90.STD
+File Copy: C:\Program Files\Eps90\changes\NEWKEYS.E
+File Copy: C:\Program Files\Eps90\changes\NEWKEYS.B
+File Copy: C:\Program Files\Eps90\UNWISE.EXE
+File Copy: C:\Program Files\Eps90\UNWISE.INI
+Made Dir: C:\WINDOWS\Start Menu\Programs\Epsilon 9.0
+Shell Link: C:\WINDOWS\Start Menu\Programs\Epsilon 9.0\Epsilon.lnk
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\LugaruEpsilon90
+RegDB Val: Epsilon Programmer's Editor 9.0
+RegDB Name: DisplayName
+RegDB Root: 2
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\LugaruEpsilon90
+RegDB Val: C:\PROGRA~1\EPS90\UNWISE C:\PROGRA~1\EPS90\INSTALL.LOG
+RegDB Name: UninstallString
+RegDB Root: 2
+RegDB Key: Software\Lugaru\Epsilon
+RegDB Val: C:\PROGRA~1\EPS90
+RegDB Name: EpsPath90
+RegDB Root: 1
+RegDB Key: Software\Lugaru\Epsilon
+RegDB Val: C:\PROGRA~1\EPS90\BIN
+RegDB Name: BinPath90
+RegDB Root: 1
+RegDB Key: System\CurrentControlSet\Services\VxD\Epsilon90
+RegDB Val: C:\WINDOWS\SYSTEM\lugeps1.386
+RegDB Name: StaticVxD
+RegDB Root: 2
+* RESTART=W
